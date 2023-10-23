@@ -83,7 +83,7 @@ public class GameManager : MonoBehaviour
 
     public void LoadLevel1()
     {
-        SceneManager.LoadScene(levelName);
+        SceneManager.LoadScene("Level1");
     }
     
     public void LoadLevel2()

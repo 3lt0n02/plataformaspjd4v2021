@@ -35,10 +35,10 @@ public class EnemyController : MonoBehaviour
     
     private AudioSource _audioSource;
     
-    // Start is called before the first frame update
+    
     void Start()
     {
-        _animator = GetComponent<Animator>();
+       _animator = GetComponent<Animator>();
         _collider2D = GetComponent<Collider2D>();
         _audioSource = GetComponent<AudioSource>();
 
@@ -60,13 +60,13 @@ public class EnemyController : MonoBehaviour
         _currentEnergy = maxEnergy;
     }
 
-    // Update is called once per frame
+    
     void Update()
     {
         if(_isAlive) MovePlatform();
     }
 
-    private void MovePlatform()
+   private void MovePlatform()
     {
         if (!_isReturning)
         {

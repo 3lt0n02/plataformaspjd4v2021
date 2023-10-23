@@ -110,8 +110,7 @@ public class PlayerController : MonoBehaviour
     {
         playerInput.onActionTriggered -= OnActionTriggered;
     }
-
-    // Start is called before the first frame update
+    
     void Start()
     {
         _rigidbody2D = GetComponent<Rigidbody2D>();
@@ -191,7 +190,7 @@ public class PlayerController : MonoBehaviour
         
     }
 
-    // Update is called once per frame
+    
     void FixedUpdate()
     {
         /*
