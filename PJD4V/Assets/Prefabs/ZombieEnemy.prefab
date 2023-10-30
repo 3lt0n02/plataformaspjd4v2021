@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1094572726027374501}
   m_Layer: 0
-  m_Name: extre_B
+  m_Name: pontoDeInteresseB
   m_TagString: Untagged
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -41,7 +41,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7395951113828031546}
   m_Layer: 0
-  m_Name: pont A
+  m_Name: pontoDePatrulhaA
   m_TagString: Untagged
   m_Icon: {fileID: -5397416234189338067, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -72,7 +72,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5487643689749523708}
   m_Layer: 0
-  m_Name: extre_A
+  m_Name: pontoDeInteresseA
   m_TagString: Untagged
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -107,6 +107,7 @@ GameObject:
   - component: {fileID: 2009076214}
   - component: {fileID: 1180855973}
   - component: {fileID: -5930093782031849416}
+  - component: {fileID: 9045600958613377889}
   m_Layer: 0
   m_Name: ZombieEnemy
   m_TagString: Enemy
@@ -345,6 +346,18 @@ MonoBehaviour:
   _pontB: {fileID: 4318858078603894219}
   _Extre_A: {fileID: 5487643689749523708}
   _Extre_B: {fileID: 1094572726027374501}
+--- !u!114 &9045600958613377889
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8249972171132823332}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3967c30fb5a3af540b939e064187adc1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8491516002804977835
 GameObject:
   m_ObjectHideFlags: 0
@@ -355,7 +368,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4318858078603894219}
   m_Layer: 0
-  m_Name: pont B
+  m_Name: pontoDePatrulhaB
   m_TagString: Untagged
   m_Icon: {fileID: -5397416234189338067, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
